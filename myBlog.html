@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <meta charset="utf-8" />
+</head>
+ 
+<body>
+    <header>
+        <div>           
+            <div id="title">Front End Learning</div>
+            <div id="instructions">
+                <ul>
+                    <li>This web page is wrritten for the summer class as a personal homepage.</li>
+                    <li>Class assignments and study notes will be shared here. </li>
+                    <li>Most Recent : <a href="studyNotes.html" style="color:whitesmoke">Starting From html&&css 2019.07.03 </a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+ 
+    <section id="index">
+        <div class="gcs-radius">
+            <a href="#to1">Personal Information</a>               
+            <a href="#to2">Class Assignments</a>              
+            <a href="#to3">Study Notes</a>              
+        </div>
+    </section>
+
+    <section class="personalInformation">
+        <a name="to1">
+        <div id="leftInfo">
+            <img id="right" src="blog3.jpg" />  
+            <ul>
+                <li>NAME: Wang Yingqi</li>
+                <li>STUDENT NUMBER: 2017011991</li>
+                <li>CLASS: 71</li>
+                <li>PHONE: 15221944513</li>
+                <li>E-MAIL: wang-yq17@mails.tsinghua.edu.cn</li>
+            </ul>
+        </div>
+        </a>
+        <div id="rightPic">        
+        </div>
+    </section>
+ 
+    <section class="classAssignments">
+        <a name="to2"></a>
+            <div id="products">
+                <div style="line-height:300px">See Homework Here</div>
+                <div id="prointroduction">
+                    <div>
+                        <a href="#" style="text-decoration:none">Homework 1 : A web page Based on html && css</a>
+                        <p>A personal blog contains three parts: self introduction, homework links and study notes. </p>
+                        <p>Completed by 2019.7.3.</p>
+                    </div>
+                    <div>
+                        <a href="#" style="text-decoration:none">homework_02</a>
+                        <p>to be continued..</p>
+                    </div>
+                    <div>
+                        <a href="#" style="text-decoration:none">homework_03</a>
+                        <p>to be contnued..</p>
+                    </div>
+                    <div>
+                            <a href="#" style="text-decoration:none">homework_04</a>
+                            <p>to be contnued..</p>
+                        </div>
+                    <div>
+                            <a href="#" style="text-decoration:none">homework_05</a>
+                            <p>to be contnued..</p>
+                        </div>
+                </div>
+            </div>
+    </section>
+ 
+    <section class="studyNotes">
+            <a name="to3"></a>
+            <div id="productsStudy">
+                <div style="line-height:300px;color:whitesmoke ">See Study Notes Here</div>
+                <div id="notePoint">
+                    <div>
+                        <a href="studyNotes.html" style="text-decoration:none;color:whitesmoke">Starting From html&&css 2019.07.03 </a>
+                    </div>
+                    <div>
+                        <a href="#" style="text-decoration:none;color:whitesmoke">***</a>
+                    </div>
+                    <div>
+                        <a href="#" style="text-decoration:none;color:whitesmoke">***</a>
+                    </div>
+                </div>
+            </div>
+  </section>
+ 
+</body>
+ 
+</html>
+<style>
+body {
+    font-family: "Microsoft Yahei", sans-serif;
+    font-weight: lighter;
+    width:100%;
+}
+ 
+header {
+    background-image: url(blog1.jpg);
+    height:870px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    width:100%;
+}
+ 
+#title {
+    display: inline-block;
+    text-align:left;
+    font-size: 50px;
+    padding-top: 580px;
+    width: 1100px;
+}
+ 
+#instructions{
+    display:inline-block;
+    box-sizing: border-box;
+    text-align:left;
+    width: 1100px;
+    font-size: 20px;
+    padding-top:10px;
+    padding-right:650px;
+}
+
+#index{
+    width:100%;
+    border:10px;
+}
+
+.gcs-radius{
+    width:100%;
+    display:inline-flex;
+}
+.gcs-radius a{
+    margin:75px;
+    width:33%;
+    height:160px;
+    line-height: 170px;
+    text-align: center;
+    font-size:25px;
+    background:grey;
+    text-decoration: none;
+    border-radius:0 0 50% 50%;
+    color: white;
+    background: linear-gradient(30deg,rgb(70, 69, 69) 40%,whitesmoke 46%);
+    background-size: 7px 110px;
+}
+
+.personalInfomation{
+    padding-top:100px;
+    display:flex;
+    flex-direction: row;
+    width:100%;
+}
+
+#right{
+    width:15%;
+    border-radius:50%;
+    margin-left:65%;
+}
+
+#leftInfo{
+    font-size: 30px;
+    width:100%;
+    padding-top:200px;
+    padding-left:50px;
+    padding-bottom: 50px;
+    color:white;
+    border:10px;
+    background: linear-gradient(45deg,rgb(28, 28, 31) 35%,whitesmoke 36%);
+    background-size: 3200px 50px;
+}
+
+#rightPic{
+    width:40%;
+    margin-right: 0;
+    background-color:black;
+    border:black；
+}
+
+#products {
+    width: 100%;
+    height: 680px;
+    margin-top:10px;
+    background: linear-gradient(135deg,darkgrey 5%,whitesmoke 6%);
+    background-size: 3200px 50px;
+}
+ 
+#products>div:first-child {
+    font-size: 48px;
+    text-align: center;
+    margin: 90px auto 80px auto;
+}
+ 
+#prointroduction {
+    display: flex;
+    justify-content: space-between;
+    margin-left:23%;
+    margin-top:10px;
+}
+ 
+#prointroduction div {
+    width: 260px;
+    height: 280px;
+}
+
+#productsStudy {
+    width: 100%;
+    height: 680px;
+    margin-top:10px;
+    background: linear-gradient(45deg,rgb(78, 78, 78) 35%,whitesmoke 36%);
+    background-size: 3200px 50px;
+    color:white;
+}
+ 
+#productsStudy>div:first-child {
+    font-size: 48px;
+    text-align: center;
+    margin: 90px auto 80px auto;
+}
+
+#notePoint {
+    justify-content: space-between;
+    margin-left:13%;
+    line-height: 35px;
+    color:white;
+}
+ 
+#notePoint div {
+    width: 60%;
+}
+</style>
