@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
  
@@ -6,22 +7,26 @@
 </head>
  
 <body>
-    <section class="studyNotes">
-            <div id="productsStudy">
-                <div style="color:whitesmoke ">Starting From html&&css 2019.07.03</div>
+    <section class="studyNotes" style="width: 100%;
+    height: 480px;
+    background: linear-gradient(45deg, rgb(70, 53, 28) 35%,whitesmoke 36%);
+        background-size: auto;
+    background-size: auto;
+    background-size: 3200px 50px;">
+            <div class="productsStudy">
+                <div style="color:whitesmoke ">初探html&&css 2019.07.03</div>
                 <div id="notePoint">
                     <div>
                         <p>写网页其实还蛮有趣的。但是要想实现好的效果，还是需要多多摸索。希望自己能在三周的小学期里好好学习，能够写出不丑的前端。</p>
-                        <p>此处省略三百字。。。</p>
                     </div>
-                 /div>
+                </div>
            </div>
             <div class="productsStudy">
                 <div style="color:whitesmoke ">入门javascript 2019.07.07</div>
                 <div id="notePoint">
                     <div>
                         <p>先说说对上一个作业：博客制作的感想吧。很遗憾，做的很烂。其实想投入时间，但是但是还有学期里大作业没完成，所以就做的及其简略。。以后会改进吧（假装立flag）。
-                     这次是联练习javacript语言。过程很痛苦。很多javascript的表达，语法，上课并不能一下都掌握，因此课下做作业免不了多多复习（重新预习x）。多叉树那道题我才用了递归构造，然后再递归中输出先序遍历的数组，之后
+                     这次是练习javacript语言。过程很痛苦。很多javascript的表达，语法，上课并不能一下都掌握，因此课下做作业免不了多多复习（重新预习x）。多叉树那道题我用了递归构造，然后在递归中输出先序遍历的数组，之后
                      的has_next和next_value函数就相当于只在对数组进行操作。我个人感觉我应该是投机取巧了，但是想了很久别的方法也没有实现。。。运算符的题目跟数据结构中做过的比较类似，模拟一个栈，就可以。然后，第一题我感觉
                      最大的问题就在于gettime函数的使用，之前不知道，就还在想是不是要考虑单双月，考虑闰年blabla。。四道题目感觉还是花了不少时间sigh，但也的确使我熟悉并入门了js。
                      至于准确率我很慌，不知道剩下百分之八十九十的样例我会不会全部踩雷（希望不。。）这个小学期有点硬。？</p>
@@ -50,12 +55,13 @@ body {
     font-weight: lighter;
     width:100%;
 }
-
-#productsStudy {
+.productsStudy {
+    padding-top: 80px;
+    padding-left:150px;
     width: 100%;
-    height: 680px;
     background: linear-gradient(45deg, rgb(70, 53, 28) 35%,whitesmoke 36%);
     background-size: 3200px 50px;
+    font-size: 30px;
     color:white;
 }
  
@@ -65,12 +71,12 @@ body {
     padding-top: 100px;
     margin-left: 13%;
 }
-
 #notePoint {
     justify-content: space-between;
-    margin-left:13%;
+   // margin-left:13%;
     line-height: 35px;
     color:white;
+    font-size:15px;
 }
  
 #notePoint div {
